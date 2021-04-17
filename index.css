@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    background-color: white;
+    margin: 0;
+    font-size: 20px;
+}
+.clear{
+    clear: both;
+}
+/* info_contact */
+.info_contact{
+    background-color: #2B3E51;
+    height: 50px;
+}
+.info_contact .info{
+    width: 50%;
+    margin-right: 50px; 
+    padding: 20px 100px;
+    float: left;
+}
+.info_contact .info ul li{
+    list-style: none;
+    display: inline;
+    margin: 20px;
+}
+.info_contact .info ul li a{
+    text-decoration: none;
+    color: white;
+ 
+}
+.info_contact .info ul li i{
+    color: gold;
+}
+.info_contact .apply{
+    margin-right: 10px;
+    padding: 10px;   
+}
+.info_contact .apply a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: gold; 
+    padding: 20px;
+}
+
+/* header */
+.header{
+    background-color: white;
+    margin-top: 10px;
+    padding-left: 100px;
+
+}
+.header .header_title{
+    padding-left: 10px;
+
+}
+/* đẩy chữ mastery lên cùng hàng với icon */
+.header .header_title h1{
+    display: inline;
+}
+.header .header_menu ul li{
+    list-style: none;
+    display: inline;
+    margin-top: 10px;
+}
+.header .header_menu ul li a{
+    text-decoration: none;
+    color:black;
+    margin: 20px;
+}
+.header ul li.active a{
+    color: gold;
+}
+
+/* carousel */
+.carousel{
+    background-image: url(./../baitap2_images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center top ;
+    height:600px;
+    position: relative;
+}
+.carousel .carousel_item{
+    float:left;
+    text-align: center;
+    width: 25%;
+    margin:10px;
+   
+}
+.carousel .carousel_item .carousel_text{
+    background-color: white;
+    border-radius: 5%;
+    padding:20px;
+    border: ridge;
+}
+.carousel .carousel_item .carousel_text i{
+    color: gold;
+    font-size: 36px;
+}
+.carousel .carousel_item .carousel_text p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.carousel .carousel_content{
+    padding-left: 200px;
+    position: absolute;
+    bottom: -150px;
+}
+.carousel .carousel_text button{
+    border-radius: 5%;
+    background-color: gold;
+    color: black;
+    font-size: 15px;
+    padding: 10px 25px;
+    border: none;
+}
+/* ABOUT */
+.about{
+    margin-top: 200px;
+    background-color: white;
+    padding-left: 100px;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+.about .about_left{
+    text-align: left;
+    width:500px;
+}
+.about .about_left p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about .about_left button{
+    border-radius: 5%;
+    background-color: gold;
+    color: black;
+    font-size: 15px;
+    padding:10px 25px;
+    border: none;
+}
+.about .about_right,
+.about .about_left
+{
+    float:left;
+}
+.about .about_right{
+    margin-left: 100px;
+}
+/* SERVICES */
+.services{
+    background-color: white;
+}
+.services .services_top{
+    margin-right: 100px;
+    margin-left: 100px;
+    width: 80%;
+}
+.services .services_item{
+    float:left;
+    background-color: #2B3E51  ;
+    color:white;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    padding: 50px
+    
+}
+.services .service_text h3{
+    margin-top: 20px;
+}
+.services .services_bottom span{
+    display: block;
+    
+    
+}
+/* ACTIVITY */
+.activity{
+    background-image: url(./../baitap2_images/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    margin-top: 600px;    
+}
+
+
+
